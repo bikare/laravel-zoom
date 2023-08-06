@@ -1,6 +1,7 @@
 {
     "name": "bikare/laravel-zoom",
     "description": "Zoom user-level Server-To-Server OAuth implementation built for Laravel 10",
+    "keywords": ["bikare", "laravel", "zoom", "servertoserver 0auth"],
     "version": "1.0.0",
     "type": "library",
     "minimum-stability": "stable",
@@ -18,7 +19,9 @@
     "authors": [
         {
             "name": "Can Sarıyar",
-            "email": "csariyar@bikare.net"
+            "email": "csariyar@bikare.net",
+          "homepage": "https://github.com/cansariyar",
+          "role": "Developer"
         }
     ],
     "extra": {
