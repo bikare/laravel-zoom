@@ -1,0 +1,34 @@
+{
+    "name": "bikare/laravel-zoom",
+    "description": "Zoom user-level Server-To-Server OAuth implementation built for Laravel 10",
+    "version": "1.0.0",
+    "type": "library",
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "require": {
+        "guzzlehttp/guzzle": "^7.2",
+        "php": "^7.2|^8.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Bikare\\LaravelZoom\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Can Sarıyar",
+            "email": "csariyar@bikare.net"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Bikare\\LaravelZoom\\ZoomServiceProvider"
+            ],
+            "aliases": {
+                "Zoom": "Bikare\\LaravelZoom\\Facades\\Zoom"
+            }
+        }
+    }
+}
